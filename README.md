@@ -68,3 +68,9 @@ Seventh merging table:
 
 Eighth merging table:
 ![i](img/I.png)
+
+### IP Tree
+![tree](img/tree.png)
+
+### IP Divisions
+![pembagian](img/pembagian.png)
