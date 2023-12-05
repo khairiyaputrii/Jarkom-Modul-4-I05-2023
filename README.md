@@ -15,3 +15,32 @@ Group Members:
 
 ## Route
 ![Route](img/route.png)
+
+## CIDR
+### Merging Subnets
+**Initial State**
+![initial](img/awal.png)
+
+**First Merge (B)**
+![first](img/pertama.png)
+
+**Second Merge (C)**
+![second](img/kedua.png)
+
+**Third Merge (D)**
+![third](img/ketiga.png)
+
+**Fourth Merge (E)**
+![fourth](img/keempat.png)
+
+**Fifth Merge (F)**
+![fifth](img/kelima.png)
+
+**Sixth Merge (G)**
+![sixth](img/keenam.png)
+
+**Seventh Merge (H)**
+![seventh](img/ketujuh.png)
+
+**Eighth Merge (I)**
+![eighth](img/kedelapan.png)
