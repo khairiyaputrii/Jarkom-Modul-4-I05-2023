@@ -7,3 +7,11 @@ Group Members:
 | ---       |   ---     |---  |
 |     1     |     Khairiya Maisa Putri    | 5025211192 |
 |     2     |     Talitha Hayyinas Sahala    |  5025211263 |
+
+## Topologi GNS CIDR
+![TopologiGNS](img/topologiGNS.png)
+
+## Topologi PKT VLSM
+
+## Route
+![Route](img/route.png)
