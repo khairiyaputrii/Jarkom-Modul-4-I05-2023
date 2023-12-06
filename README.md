@@ -11,7 +11,7 @@ Group Members:
 ## Topologi GNS CIDR
 ![TopologiGNS](img/topologiGNS.png)
 
-## Topologi PKT VLSM
+## Topologi CPT VLSM
 
 ## Route
 ![Route](img/route.png)
