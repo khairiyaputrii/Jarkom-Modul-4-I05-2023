@@ -26,8 +26,6 @@ After doing research and conducting experiments and seeing how to `route` the Ja
 
 ## VLSM
 
-In English, the translated text would be:
-
 VLSM, commonly known as `Variable Length Subnet Masking`, is a `subnetting` technique used to optimize the distribution of `IP addresses` within a network. The `size` of the `netmask` is adjusted based on the number of computers/hosts that require IP addresses.
 
 In a subnet. By using `VLSM`, we can allocate `IP address` blocks that match the needs of each subnet without adhering to uniform limitations. This allows network administrators to be more flexible in optimizing the use of IP addresses and avoiding resource wastage.
@@ -51,8 +49,25 @@ The following are the results of dividing the `IP` that we obtained from the `sp
 
 
 ## CIDR
+
+CIDR stands for ```Classless Inter-Domain Routing```, and it is a method for **efficiently allocating and routing IP addresses** on the Internet. Before CIDR, IP addresses were traditionally assigned and managed using class-based addressing, which divided IP addresses into three classes: Class A, Class B, and Class C. However, this approach led to inefficient use of IP address space.
+
+CIDR was introduced to address this inefficiency by allowing for a ```more flexible and scalable allocation of IP addresses```. With CIDR, IP addresses are no longer strictly divided into classes. Instead, CIDR uses a notation that includes both the network address and a variable-length subnet mask ```(VLSM)```. The format for CIDR notation is as follows:
+
+```
+IP_address/Prefix_Length
+```
+
+Here, the IP_address represents the network address, and the Prefix_Length specifies the number of significant bits in the subnet mask. The subnet mask is used to **divide** the IP address into network and host portions.
+
+For example:
+```
+10.61.0.0 /22
+```
+CIDR allows organizations to have more ```flexibility in allocating IP addresses``` based on their actual needs. It also helps in **efficient use of IP address space, reducing address exhaustion, and facilitating the aggregation of routing information on the Internet**.
+
 ### Merging Subnets
-The first thing that we need to do is to **merged** the subnets from the furthest one from the internet, untill all of the subnets merged into one.
+The first thing that we need to do is to **merged** the subnets from the furthest one from the internet, until all of the subnets merged into one.
 
 **Initial State**
 ![initial](img/awal.png)
