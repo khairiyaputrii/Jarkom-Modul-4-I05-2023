@@ -26,9 +26,20 @@ After doing research and conducting experiments and seeing how to `route` the Ja
 
 ## VLSM
 
-The following is the result of `breaking down` a large subnet which will be formed into a smaller `network`
+In English, the translated text would be:
+
+VLSM, commonly known as `Variable Length Subnet Masking`, is a `subnetting` technique used to optimize the distribution of `IP addresses` within a network. The `size` of the `netmask` is adjusted based on the number of computers/hosts that require IP addresses.
+
+In a subnet. By using `VLSM`, we can allocate `IP address` blocks that match the needs of each subnet without adhering to uniform limitations. This allows network administrators to be more flexible in optimizing the use of IP addresses and avoiding resource wastage.
+
+The implementation process of `VLSM` involves breaking down a large network into smaller subnets with varying sizes. Each `subnet` is then assigned a netmask according to the number of hosts required within it. In this way, subnets that require more hosts will have a netmask with fewer bits, while subnets needing fewer hosts will have a `netmask` with more bits.
+
+The main advantage of `VLSM` is the efficient use of IP addresses, as it allows us to avoid assigning large-sized subnets to small networks that actually require only a small number of IP addresses. Additionally, VLSM aids in reducing overall IP address consumption in the network, thereby supporting growth and expansion more `effectively`.
+
 
 **VLSM TREE**
+
+The following is the result of `breaking down` a large subnet which will be formed into a smaller `network`
 
 ![VLSMTREE](img/VLSM_TREE.png)
 
