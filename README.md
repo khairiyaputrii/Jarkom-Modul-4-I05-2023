@@ -8,14 +8,16 @@ Group Members:
 |     1     |     Khairiya Maisa Putri    | 5025211192 |
 |     2     |     Talitha Hayyinas Sahala    |  5025211263 |
 
+Method that we are using: GNS - CIDR and CPT - VLSM
+
+## Prefix IP
+Our Prefix IP `10.61`
+
 ## Topologi GNS CIDR
 ![TopologiGNS](img/topologiGNS.png)
 
 ## Topologi CPT VLSM
 ![TopologiCPT](img/topologi-vlsm.png)
-
-## Prefix IP
-Our Prefix IP `10.61`
 
 ## Route
 After doing research and conducting experiments and seeing how to `route` the Jarkom module, the results of the routes we got are as follows
@@ -39,6 +41,8 @@ The following are the results of dividing the `IP` that we obtained from the `sp
 
 ## CIDR
 ### Merging Subnets
+The first thing that we need to do is to **merged** the subnets from the furthest one from the internet, untill all of the subnets merged into one.
+
 **Initial State**
 ![initial](img/awal.png)
 
@@ -91,7 +95,11 @@ Eighth merging table:
 ![i](img/I.png)
 
 ### IP Tree
+From the merging process above, we will get an IP **tree** like down below:
+
 ![tree](img/tree.png)
 
 ### IP Divisions
+Based on the IP tree above, we can divide the IP for each subnets, where we can count the broadcast IP by implementing the OR operation on IP and inverted netmask. And we will get there IP Broadcasts for each subnets:
+
 ![pembagian](img/pembagian.png)
