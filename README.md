@@ -12,9 +12,30 @@ Group Members:
 ![TopologiGNS](img/topologiGNS.png)
 
 ## Topologi CPT VLSM
+![TopologiCPT](img/topologi-vlsm.png)
+
+## Prefix IP
+Our Prefix IP `10.61`
 
 ## Route
+After doing research and conducting experiments and seeing how to `route` the Jarkom module, the results of the routes we got are as follows
+
 ![Route](img/route.png)
+
+## VLSM
+
+The following is the result of `breaking down` a large subnet which will be formed into a smaller `network`
+
+**VLSM TREE**
+
+![VLSMTREE](img/VLSM_TREE.png)
+
+**IP VLSM**
+
+The following are the results of dividing the `IP` that we obtained from the `split` into smaller networks
+
+![IPVLSM](img/IP-VLSM.png)
+
 
 ## CIDR
 ### Merging Subnets
